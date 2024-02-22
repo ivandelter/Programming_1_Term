@@ -1,0 +1,111 @@
+3) Ask for 2 numbers and if they aren't equal tell which one is the biggest one.
+
+Algorithm EXERCISE_3
+	DATA
+		x1, x2 integer numeric var
+	START
+		READ x1
+		READ x2
+		if(x1 != x2) do
+			if(x1 > x2) do
+				print "x1 is bigger"
+			else
+				print "x2 is bigger"
+			end if
+		end if
+END algorithm
+
+4) Ask for a number and check if it is even. If it is even, print the number; otherwise sum 1 to the number and print it
+
+Algorithm EXERCISE_4
+	DATA 
+		x integer numeric var
+	START
+		READ x
+		if(x % 2 == 0)
+			print a
+		else
+			a = a + 1
+			print a
+		end if
+END algorithm
+
+5) Ask for a number, user age, and check in which range it is. If the user inputs a number that is not in the range 10-50, print an error message
+Algorithm EXERCISE_5
+	DATA
+		age numeric var
+	START
+		READ age
+		switch(age)
+			if(age >= 10 && age <= 50)
+				if(age < 20)
+					print 10
+				else if(age < 20)
+					print 20
+				else if(age < 30)
+					print 30
+				else if(age < 40)
+					print 40
+				else
+					print 50
+END Algorithm
+
+6) Ask for a number and write the corresponding name of the month
+Algorithm EXERCISE_5
+	DATA
+		month numeric var
+	START
+		READ month
+		switch(month)
+			case 1:
+				print "January"
+				break
+			case 2:
+				print "February"
+				break
+			case 3:
+				print "March"
+				break
+			case 4:
+				print "April"
+				break
+			case 5:
+				print "May"
+				break
+			case 6:
+				print "June"
+				break
+			case 7:
+				print "July"
+				break
+			case 8:
+				print "August"
+				break
+			case 9:
+				print "September"
+				break
+			case 10:
+				print "October"
+				break
+			case 11:
+				print "November"
+				break
+			case 12:
+				print "December"
+				break
+			default:
+				print "You must write a number between 1 and 12"
+				break
+END algorithm
+
+[ ITERATIONS ]
+1) Count from 1 to 100
+Algorithm ITERATION_1
+	DATA 
+		x numeric var
+	START
+		READ x
+		x = 1
+		for x <= 100 step 1 repeat
+			Write x
+END Algorithm

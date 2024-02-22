@@ -1,0 +1,6 @@
+Da mal con los siguientes datos:
+ - 1, 500, 200, 300
+ - 1, 100, 300, 200
+
+Creo que tengo al revés los cálculos de cada condicional
+

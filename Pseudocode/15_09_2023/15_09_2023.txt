@@ -1,0 +1,73 @@
+2) Write the numbers from 20 to 1 in a descending order
+Algorithm Iteration_2
+	DATA
+		i integer numeric var
+	START
+		i = 1
+		For i <- 20 to 1 step -1 repeat
+			Write i
+		End For
+End Algorithm
+
+---------------------------------------------------------------------------------------
+
+3) Write a program that can add the first 5 positive integer numbers
+Algorithm Iteration_3
+	DATA
+		i integer numeric var
+		x integer numeric var
+	START
+		i = 1
+		For i <- 1 to 5 step 1 repeat
+			x += i
+		End For
+		Write x
+End Algorithm
+
+---------------------------------------------------------------------------------------
+
+4) Write a program that can multiply the values from 5 to 10 and print the result
+Algorithm Iteration_4
+	DATA
+		i integer numeric var
+		x integer numeric var
+	START
+		i = 5
+		x = 1
+		For i <- 5 to 10 step 1 repeat
+			x *= i
+		End For
+		Write x
+End Algorithm
+
+---------------------------------------------------------------------------------------
+
+5) Write the sum of all even numbers between 10 and 20
+Algorithm Iteration_5
+	DATA
+		i integer numeric var
+		x integer numeric var
+	START
+		x = 0
+		For i <- 10 to 20 step 1 repeat
+			If i % 2 == 0 do
+				x += i
+			End if
+		End For
+End Algorithm
+
+---------------------------------------------------------------------------------------
+
+6) Write the sum of all the numbers that are divisible by 3 between 10 and 20
+Algorithm Iteration_6
+	DATA
+		i integer numeric var
+		x integer numeric var
+	START
+		x = 0
+		For i <- 10 to 20 step 1 repeat
+			If i % 3 == 0 do
+				x += i
+			End if
+		End For
+End Algorithm

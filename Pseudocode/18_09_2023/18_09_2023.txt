@@ -1,0 +1,49 @@
+1) Ask the user for 100 numbers and print the ones that are odd
+ALGORITHM Exercise_1_18_september
+
+	DATA
+		number, i integer numeric var
+
+	START
+	FOR i <- 0 to 100 step 1 repeat
+		READ number
+		IF(number % 2 > 0)
+			WRITE number
+		END IF
+	END FOR
+
+END Algorithm
+
+2) Ask the user for 100 numbers and print the sum of the odd numbers
+ALGORITHM Exercise_2_18_september
+
+	DATA
+		number, total, i integer numeric var
+
+	START
+	FOR i <- 0 to 100 step 1 repeat
+		READ number
+		IF(number % 2 > 0)
+			total += number
+		END IF
+	END FOR
+
+	WRITE total
+
+END Algorithm
+
+3) Ask the user for 50 numbers and print all except the negative ones and the odd ones
+ALGORITHM Exercise_3_18_september
+
+	DATA
+		number, i integer numeric var
+
+	START
+	FOR i <- 0 to 50 step 1 repeat
+		READ number
+		IF(number > 0 AND number % 2 == 0)
+			WRITE number
+		END IF
+	END FOR
+
+END Algorithm

@@ -1,0 +1,188 @@
+1) Count from 1 to 100
+Algorithm ITERATION_1
+	DATA 
+		x numeric var
+	START
+		x = 1
+
+        WHILE x <= 100 repeat
+            WRITE x
+            x++
+        END WHILE
+END Algorithm
+
+---------------------------------------------------------------------------------------
+
+2) Write the numbers from 20 to 1 in a descending order
+Algorithm Iteration_2
+	DATA
+		i integer numeric var
+	START
+		i = 20
+
+        WHILE 1 <= i repeat
+            Write i
+            i--
+        END WHILE
+End Algorithm
+
+---------------------------------------------------------------------------------------
+
+3) Write a program that can add the first 5 positive integer numbers
+Algorithm Iteration_3
+	DATA
+		i integer numeric var
+		x integer numeric var
+	START
+		i = 1
+
+        WHILE i <= 5 repeat
+            x += i
+            i++
+        END WHILE
+
+		Write x
+End Algorithm
+
+---------------------------------------------------------------------------------------
+
+4) Write a program that can multiply the values from 5 to 10 and print the result
+Algorithm Iteration_4
+	DATA
+		i integer numeric var
+		x integer numeric var
+	START
+		i = 5
+		x = 1
+
+        WHILE i <= 10
+            x *= i
+            i++
+        END WHILE
+
+		Write x
+End Algorithm
+
+---------------------------------------------------------------------------------------
+
+5) Write the sum of all even numbers between 10 and 20
+Algorithm Iteration_5
+	DATA
+		i integer numeric var
+		x integer numeric var
+	START
+		x = 0
+
+        i = 10
+        WHILE i <= 20 repeat
+            If i % 2 == 0 do
+				x += i
+			End if
+            i++
+        END WHILE
+End Algorithm
+
+---------------------------------------------------------------------------------------
+
+6) Write the sum of all the numbers that are divisible by 3 between 10 and 20
+Algorithm Iteration_6
+	DATA
+		i integer numeric var
+		x integer numeric var
+	START
+		x = 0
+        i = 10
+
+        WHILE i <= 20 repeat
+            If i % 3 == 0 do
+				x += i
+			End if
+            i++
+        END WHILE
+End Algorithm
+
+---------------------------------------------------------------------------------------
+
+7) Ask the user for 100 numbers and print the ones that are odd
+ALGORITHM Exercise_1_18_september
+
+	DATA
+		number, i integer numeric var
+
+	START
+
+    i = 1
+    WHILE i <= 100 repeat
+        READ number
+		IF(number % 2 > 0)
+			WRITE number
+		END IF
+        i++
+    END WHILE
+
+END Algorithm
+
+---------------------------------------------------------------------------------------
+
+8) Ask the user for 100 numbers and print the sum of the odd numbers
+ALGORITHM Exercise_2_18_september
+
+	DATA
+		number, total, i integer numeric var
+
+	START
+
+    i = 1
+    WHILE i <= 100 repeat
+        READ number
+        IF(number % 2 > 0)
+            total += number
+        END IF
+    END WHILE
+
+	WRITE total
+
+END Algorithm
+
+---------------------------------------------------------------------------------------
+
+9) Ask the user for 50 numbers and print all except the negative ones and the odd ones
+ALGORITHM Exercise_3_18_september
+
+	DATA
+		number, i integer numeric var
+
+	START
+
+    i = 1
+    WHILE i <= 50 repeat
+        IF(number > 0 AND number % 2 == 0)
+			WRITE number
+		END IF
+    END WHILE
+
+END Algorithm
+
+---------------------------------------------------------------------------------------
+
+10) Ask the user for two numbers: the seconde one is going to be the power of the first one. Print the result. Do exercise using a loop
+Algorithm METHOD
+	DATA
+		num1, num2, counter, total integer numeric var
+	START
+		READ num1
+		READ num2
+		total = 1
+        counter = 1
+
+        IF(num2 == 0)
+			RETURN WRITE 1
+		END IF
+
+        WHILE counter <= num2 repeat
+            total *= num1
+            counter++
+        END WHILE
+
+		WRITE total
+END Algorithm

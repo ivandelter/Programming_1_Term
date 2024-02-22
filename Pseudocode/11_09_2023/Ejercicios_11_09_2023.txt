@@ -1,0 +1,38 @@
+NUMERIC x, y, z
+x = 20
+y = -25
+
+1) [ z = x - y ]
+z = 20 - -25 = 45
+
+2) [ x = x - y ]
+x = 20 - -25 = 45
+
+3) [ y = y - y ]
+y = -25 - -25 = 0
+
+4) [ x = x - x ]
+x = 20 - 20 = 0
+
+---------------------------------
+
+a = 10;
+b = 11;
+c = 13;
+d = 10;
+
+1) [ z <- 13 % 10 ]
+z = 3
+
+2) [ y <- ((a - b) < d) OR TRUE]
+y = (-1 < d) OR TRUE
+y = TRUE OR TRUE
+y = TRUE
+
+
+3) [ j <- y AND (b < a) OR (b < c) OR (d > b) AND c > 13 ]
+j = TRUE AND FALSE OR FALSE OR FALSE AND FALSE
+j = FALSE OR FALSE OR FALSE AND FALSE
+j = FALSE OR FALSE AND FALSE
+j = FALSE AND FALSE
+j = FALSE

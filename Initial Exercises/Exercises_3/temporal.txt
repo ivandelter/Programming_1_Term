@@ -1,0 +1,10 @@
+[ Province ]
+id code = string
+area code = string
+
+[ Town ]
+id code = string
+area = float
+
+[ Family ]
+head's id = string

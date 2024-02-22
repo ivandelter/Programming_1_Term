@@ -1,0 +1,19 @@
+a = 2   b = 3   c = 5   d = -1
+
+a) [ (a-b > c-d) AND (b > 5 OR d < 0 ]
+
+
+b) [ (b-a)>0 AND (c + b) > 7 AND (d < 0 AND b < 5 OR d < c) ]
+
+
+c) [ (c - b) % 2 < -(d * c) - 4 ]
+
+
+d) [ b - c % 2 < -(d*c) - 4 ]
+
+
+------------------------------------------------------
+
+1) Ask for 2 numbers and write "True" if the first one is the biggest one.
+
+2) Ask for 3 numbers and tell if they've been entered in an ascending order
